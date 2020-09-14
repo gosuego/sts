@@ -24,9 +24,9 @@ char getKorDay( ){
 	return result;
 }
 %>
-<h2>오늘은 <%= getKorDay( ) %>입니다.</h2>
-<h3>오늘은 <%= getKorDay( ) %>입니다.</h3>
-<h4>오늘은 <%= getKorDay( ) %>입니다.</h4>
+<h2>오늘은 <%= getKorDay( ) %>요일 입니다.</h2>
+<h3>오늘은 <%= getKorDay( ) %>요일 입니다.</h3>
+<h4>오늘은 <%= getKorDay( ) %>요일 입니다.</h4>
 </body>
 </html>
 
