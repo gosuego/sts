@@ -10,11 +10,13 @@
 <%!
 String id ="Kingdora";
 
-public String getID(){
+public String getId(){
 		return id;
-		
-}
+		}
 %>
+
+id 변수 : <%=id %> <br>
+getId() 메소드 실행결과: <%= getId() %>
 </body>
 </html>
 
