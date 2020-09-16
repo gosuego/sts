@@ -15,4 +15,3 @@ int age= 2020 - year;
 <%= name %> 님의 나이는 만<%=age %>세입니다.
 </body>
 </html>
-
