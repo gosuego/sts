@@ -27,5 +27,14 @@ input{
 	<script>
 	alert("로그인 상태가 아입니다!!")
 	</script>
+	<%
+	}
+	%>
+	<h2>로그인</h2><hr>
+	<form method="post" action="/edu/jspexam/ex05_18.jsp">
+		<input placeholder="계정을 입력하세요" name="membername" required><br>
+		<input type="password" placeholder="암호를 입력하세요" name="memberpassword" required><br>
+		<input type="submit" value="로그인">
+	</form>
 </body>
 </html>
