@@ -26,6 +26,11 @@
 			<jsp:include page = "left.jsp" flush="false"/>
 		</td>
 		<td width="350" valign="top">
+			<jsp:include page="<%=contentPage %>" flush="false"></jsp:include>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
 			<jsp:include page="bottom.jsp" flush="false"></jsp:include>
 		</td>
 	</tr>
