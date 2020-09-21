@@ -16,7 +16,7 @@
 <hr>
 <jsp:include page="<%=pageName %>" flush="false">
 	<jsp:param name="name" value="<%=name %>"/>
-	<jsp:param name="pagename" value="<%=pageName %>"/>
+	<jsp:param name="pageName" value="<%=pageName %>"/>
 </jsp:include>
 includeParamTest.jsp의 나머지 내용입니다. 
 </body>
