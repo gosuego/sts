@@ -6,7 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<jsp:forward page="temlpate2.jsp">
+<jsp:forward page="tamplate2.jsp">
 	<jsp:param value="content.jsp" name="CONTENTPAGE"/>
 </jsp:forward>
 </body>
