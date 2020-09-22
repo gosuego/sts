@@ -13,7 +13,10 @@
 	</header>
 	<div id="content">
 		<section id="areaSub">
-			<jsp:include page="<%= contentPage %>" flush="false"></jsp:include>
+			<jsp:include page="left.jsp" flush="false"></jsp:include>
+		</section>
+		<section id="areaMain">
+			<jsp:include page="<%=contentPage %>" flush="false"/>
 		</section>
 	</div>
 	<footer>
