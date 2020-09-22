@@ -26,3 +26,5 @@ import="ch05.bean.*" %>
 </body>
 </html>
 
+ArrayList는 List 인터페이스를 상속받은 클래스로 크기가 가변적으로 변하는 선형리스트입니다. 
+//상속받은 건데 크기는 가변적이라서 누적되면 ArryList에 List가 저장되는게 맞지 않을까
