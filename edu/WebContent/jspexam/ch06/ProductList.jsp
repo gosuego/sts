@@ -10,8 +10,8 @@
 		<h2>EL 예제-상품목록</h2>
 		<hr>
 		<form name="form1" method=POST action=ProductSel.jsp>
-			<jsp:useBean id="product" class=ch06.bean.Product scope="session"/>
-			<select name-"sel">
+			<jsp:useBean id="product" class="ch06.bean.Product" scope="session"/>
+			<select name="sel">
 			<%
 				for(String item : product.getProductList()){
 					out.println("<option>"+item+"</option>");
