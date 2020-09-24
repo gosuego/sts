@@ -10,7 +10,7 @@
 <body>
 <h2>xml 라이브러리 태그 예제</h2>
 <hr>
-<c:import var="xmldata" url="http://localhost:8000/edu/jspexam/student.xml" charEncoding="utf-8"/>
+<c:import var="xmldata" url="http://localhost:8181/edu/jspexam/student.xml" charEncoding="utf-8"/>
 <x:parse xml = "${xmldata }" varDom="xdata"/>
 <c:catch var="ex">
 	<x:out select="$xdata//학생[1]/이름"/>
